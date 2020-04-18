@@ -10,7 +10,7 @@ if (!pathFolder) {
       fs.readFileSync('./config.example.json'),
     );
   }
-  pathFolder = __dirname.split('/src/database/config').join('') + '/files';
+  pathFolder = __dirname.split('/src/core/').join('') + '/files';
 }
 const config = JSON.parse(
   fs.readFileSync(pathFolder + '/' + 'config.json', 'utf8'),
