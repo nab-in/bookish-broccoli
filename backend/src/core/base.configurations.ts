@@ -1,14 +1,13 @@
 import * as fs from 'fs';
-let pathFolder = process.env.HRIS_HOME;
+let pathFolder = process.env.NABIN;
 if (!pathFolder) {
-  if (!fs.existsSync('./files')) {
-    fs.mkdirSync('./files');
-    fs.mkdirSync('./files/temp')
+  if (!fs.existsSync('./api')) {
+    fs.mkdirSync('./api');
   }
-  if (!fs.existsSync('./files/config.json')) {
-    fs.writeFileSync('./files/config.json', fs.readFileSync('./config.example.json'));
+  if (!fs.existsSync('./api/config.json')) {
+    fs.writeFileSync('./api/config.json', fs.readFileSync('./config.example.json'));
   }
-  pathFolder = __dirname.split('/src/core').join('') + '/files';
+  pathFolder = __dirname.split('/src/core').join('') + '/api';
 }
 const config = JSON.parse(
   fs.readFileSync(pathFolder + '/' + 'config.json', 'utf8'),
@@ -22,19 +21,13 @@ export function getDataBaseConfiguration() {
   };
 }
 export function getConfiguration() {
-  const files = config.files || {};
+  const api = config.api || {};
   if (!config.port) {
     config.port = 3000
   }
 
-  if (!files.temp) {
-    files.temp = pathFolder + '/' + 'temp';
-  }
-//   if (!fs.existsSync(files.temp)) {
-//     fs.mkdirSync(files.temp);
-/*}*/
   return {
     ...config,
-    ...files,
+    ...api,
   };
 }
