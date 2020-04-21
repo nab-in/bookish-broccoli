@@ -16,4 +16,9 @@ export class PostService {
     await this.postRepository.save(post);
     return this.postRepository.findOne({ id: post.id });
   }
+  async getPosts() {
+    const query = this.postRepository.createQueryBuilder('post');
+    const posts = await query.getMany();
+    return posts;
+  }
 }
