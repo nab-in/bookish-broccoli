@@ -18,8 +18,8 @@ export class PostController {
       return this.postService.getPostById(param.post)
 
   }
-//   @Put(':post')
-//   async editPost(@Param() param: any, @Body() editPostDTO: any ){
-//     return await this.postService.editPost(param.post, editPostDTO)
-//   }
+  @Put(':post/editPost')
+  async editPost(@Param() param: any, @Body() editPostDTO: any ){
+    return await this.postService.editPost(param.post, editPostDTO)
+  }
 }

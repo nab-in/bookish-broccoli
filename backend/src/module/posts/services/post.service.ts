@@ -30,11 +30,11 @@ export class PostService {
     return post;
   }
 
-//   async editPost(id: number, editPostDTO: any) {
-//     const posts = this.postRepository.findOne(id);
-//     Object.keys(editPostDTO).forEach(key => {
-//         posts[key] = editPostDTO;
-//     });
-//     return this.postRepository.save();
-//   }
+  async editPost(id: number, editPostDTO: any) {
+    const { post } = editPostDTO;
+    const posts = await this.getPostById(id);
+    posts.post = post;
+    await posts.save();
+    return posts;
+  }
 }
