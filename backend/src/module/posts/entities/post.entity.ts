@@ -1,4 +1,11 @@
-import { Column, Entity, BaseEntity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  BaseEntity,
+  PrimaryGeneratedColumn,
+  BeforeInsert,
+} from 'typeorm';
+import { generateUid } from 'src/core/generate.uid';
 
 @Entity('posts', { schema: 'public' })
 export class Post extends BaseEntity {
@@ -15,4 +22,9 @@ export class Post extends BaseEntity {
     name: 'post',
   })
   post: string;
+
+  @BeforeInsert()
+  BeforeInsert() {
+    this.uid = generateUid();
+  }
 }
