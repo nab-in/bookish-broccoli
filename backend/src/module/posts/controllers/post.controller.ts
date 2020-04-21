@@ -1,5 +1,5 @@
 import { PostService } from '../services/post.service';
-import { Controller, Post, Body, Get } from '@nestjs/common';
+import { Controller, Post, Body, Get, Put, Param } from '@nestjs/common';
 
 @Controller('api/posts')
 export class PostController {
@@ -13,4 +13,13 @@ export class PostController {
   async getPosts() {
     return await this.postService.getPosts();
   }
+  @Get(':post')
+  async getOnePost(@Param() param){
+      return this.postService.getPostById(param.post)
+
+  }
+//   @Put(':post')
+//   async editPost(@Param() param: any, @Body() editPostDTO: any ){
+//     return await this.postService.editPost(param.post, editPostDTO)
+//   }
 }
