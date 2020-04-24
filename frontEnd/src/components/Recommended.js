@@ -13,9 +13,11 @@ import book5 from '../images/glass.jpg'
 const bookData =[
     {bookUrl:[book1], bookName:'here for it', bookSummary:'by rafyramy'},
     {bookUrl:[book2], bookName:'the resisters', bookSummary:'by paul'},
-    {bookUrl:[book3], bookName:'fiveAmClub', bookSummary:'by rafyramy'},
     {bookUrl:[book4], bookName:'power notebook', bookSummary:'by paul'},
+
+    {bookUrl:[book3], bookName:'fiveAmClub', bookSummary:'by rafyramy'},
     {bookUrl:[book5], bookName:'the glass hotel', bookSummary:'by rafyramy'},
+
    
           
 ];

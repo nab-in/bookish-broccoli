@@ -3,7 +3,7 @@
     flex-direction: row;
     top: 12rem;
     /* border: 2px solid red; */
-    width: 120%;
+    width: 100%;
     /* position: absolute; */
     z-index: 2000;
     /* overflow-x: scroll; */
@@ -19,10 +19,10 @@
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-duration: li;
+    /* animation-duration: li; */
     /* position: relative; */
     /* left: ; */
-    /* width: 20%; */
+    width: 28rem;
     /* border: 2px solid red; */
     /* margin-left: -12rem; */
     /* justify-content: space-around; */
@@ -31,7 +31,7 @@
 
 .bookImage {
     /* width: 100%; */
-    height: 450px;
+    height: 290px;
 }
 
 .about {
@@ -48,6 +48,7 @@
     width: 200px;
 }
 
+/* 
 @keyframes example {
     0% {
         -webkit-transform: translateX(0);
@@ -58,4 +59,4 @@
         -webkit-transform: translateX(-100px);
         transform: translateX(-100px);
     }
-}
+} */
