@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: rgba(169, 216, 193, 0.411);
     align-self: center;
     padding: 0;
@@ -9,7 +10,7 @@
     height: 80vh;
     z-index: -1;
     position: relative;
-    ;
+    /* overflow-x: scroll; */
 }
 
 .title {
@@ -20,4 +21,17 @@
     color: rgba(15, 13, 13, 0.733);
     margin-left: -2.5rem;
     padding-top: 1rem;
+}
+
+.bookContents {
+    /* border: 2px solid rgb(0, 255, 0); */
+    height: 100vh;
+    width: 100%;
+    /* margin-right: -11rem;
+     
+    */
+    margin-left: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
