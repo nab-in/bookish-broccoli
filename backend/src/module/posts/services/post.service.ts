@@ -33,8 +33,13 @@ export class PostService {
   async editPost(id: number, editPostDTO: any) {
     const { post } = editPostDTO;
     const posts = await this.getPostById(id);
-    posts.post = post;
-    await posts.save();
-    return posts;
+    if (post) {
+      posts.post = post;
+      await posts.save();
+      return posts;
+   }
+   else {
+       throw new NotFoundException(`Post Not Defined`)
+   }
   }
 }
