@@ -3,12 +3,16 @@ import Layout from "../components/Layout"
 import Navbar from "../components/Navbar"
 import Recommended from '../components/Recommended'
 import Upload from '../components/Upload'
+import Popular from "../components/Popular"
+import Home from "../components/Home"
 const Main = () => {
   return (
     <Layout>
       <Navbar />
-    <Recommended/>
-    <Upload/>
+      <Home/>
+    {/* <Recommended/> */}
+    {/* <Upload/> */}
+    {/* <Popular/> */}
     </Layout>
   )
 }

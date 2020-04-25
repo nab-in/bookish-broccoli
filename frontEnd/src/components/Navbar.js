@@ -1,6 +1,6 @@
 import React from "react"
 import navStyles from "../styles/navbar.module.css"
-import Search from "../components/Search"
+import Search from "../Icons/Search"
 const Navbar = () => {
 
   return (
