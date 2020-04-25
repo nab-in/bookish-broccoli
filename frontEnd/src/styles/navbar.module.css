@@ -7,15 +7,18 @@
 }
 
 .logo {
-  font-size: 1.4rem;
-  color: rgb(65, 63, 63);
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(22, 15, 15);
+  /* font-family: "roboto-slab"; */
+
 }
 
 input {
   background: transparent;
   border: none;
   width: 200px;
-  border-bottom: 1.2px solid rgb(168, 165, 165);
+  border-bottom: 1.2px solid rgb(49, 47, 47);
 
 }
 

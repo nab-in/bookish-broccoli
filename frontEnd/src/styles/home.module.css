@@ -1,13 +1,24 @@
-.home .homeContainer {
+.home {
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    height: 80vh;
+    z-index: -2;
+    /* bottom: 0; */
+}
+
+.homeContainer {
     font-family: "roboto-slab";
     /* align-self: center; */
     padding: 0;
     /* padding-left: 3rem; */
     margin: auto 0;
     position: absolute;
+    /* margin-top: -2rem; */
+    top: 130px;
     right: 0;
     background-color: #943b20fb;
     /* background-color: #c4684cd0; */
+    /* border: 2px solid red; */
 
     /* border: 2px solid transparent; */
     /* z-index: -1; */
@@ -19,25 +30,81 @@
 
 }
 
-/* .welcomeText {
-    text-align: center;
-} */
-/* 
+.welcomeText {
+    position: absolute;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 30vw;
+    top: 29%;
+    /* height: 100px; */
+    z-index: 2000000;
+    left: 10%;
+}
+
 .welcomeTitle {
-    font-weight: 100;
-    font-size: 4rem;
-    color: rgba(241, 247, 244, 0.993);
+    font-weight: 900;
+    font-family: "roboto-slab";
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    color: rgba(20, 15, 15, 0.877);
     text-transform: capitalize;
-    font-style: italic;
+    /* font-style: italic; */
 
-} */
+}
 
-/* .subTitle {
+.subTitle {
     margin-top: -1rem;
     font-family: sans-serif;
-    font-size: 1.12rem;
-} */
+    font-size: 4.12rem;
+    font-weight: bolder;
+    color: rgb(20, 16, 16);
+    /* font-style: italic; */
+    /* border: 2px solid white; */
+    margin-bottom: 1rem;
+}
 
+.explore {
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 34px;
+    padding: .65rem 1.5rem;
+    text-transform: uppercase;
+    /* margin-top: -15rem; */
+    /* margin-bottom: 3rem; */
+    font-weight: 700;
+}
+
+.nextBtn {
+    position: relative;
+
+    top: 520px;
+    left: 160px;
+    z-index: 900000000;
+    /* border: 2px soli red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6vw;
+}
+
+.arrowLeft,
+.arrowRight {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #fff;
+    color: brown;
+    width: 20px;
+    height: 15px;
+    fill: rgba(39, 36, 36, 0.856);
+    padding: .5rem .4rem;
+    text-align: center;
+}
+
+.arrowLeft {
+    transform: rotate(-180deg);
+}
 
 .topPickContainer {
     /* margin: 3rem; */
@@ -45,9 +112,9 @@
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 20vw;
+    width: 16vw;
     z-index: 3000;
-    background-color: rgb(244, 247, 246);
+    background-color: rgba(244, 247, 246, 0.925);
     margin: auto 0;
     padding: 2rem 1.2rem;
     color: black;
@@ -99,7 +166,7 @@
 .topBookImg {
     width: 200px;
     align-self: center;
-    margin-left: 4rem;
+    margin-left: 2rem;
 
 }
 
@@ -115,29 +182,36 @@
 .categories {
     position: absolute;
     bottom: 0;
-    padding-top: .7rem;
+    padding-top: .2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(244, 247, 246);
+    background-color: rgba(244, 247, 246, 0.925);
+
+    /* background-color: rgb(244, 247, 246); */
     width: 75vw;
     border-top-right-radius: 20px;
+    /* border: 2px solid red; */
+
     text-align: center;
 }
 
 .recomendsIcon,
 .popularIcon,
 .uploadIcon {
+    /* margin-top: 1rem; */
+    /* padding-top: 1rem; */
+    /* margin-bottom: -1rem; */
     fill: #df7f62d8;
-    width: 25px;
+    width: 20px;
 }
 
 h2 {
-    font-size: .98rem;
+    font-size: .9rem;
     font-family: sans-serif;
     letter-spacing: .04rem;
-    padding-top: .4rem;
-    color: rgba(0, 0, 0, 0.692);
+    padding-top: .3rem;
+    color: rgba(0, 0, 0, 0.815);
 }
 
 /* 

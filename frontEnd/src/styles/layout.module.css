@@ -17,9 +17,9 @@ body {
  
 
   /* background-image: url("../images/banner9.jpeg"); */
-  background-image: radial-gradient(circle,
-      rgba(233, 98, 64, 0.274) 20%,
-      rgba(233, 98, 64, 0.26) 4%),
+  background-image: linear-gradient(to bottom,
+      rgba(53, 22, 14, 0.705) 100%,
+      rgba(143, 41, 15, 0.473) 100%),
     url("../images/banner9.jpeg");
   height: 100vh;
   background-position: 0px center;

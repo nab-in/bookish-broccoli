@@ -12,12 +12,25 @@ const Home = ()=> {
     return (
         <div className={styles.home}>
             
-       
-        <div className={styles.homeContainer}>
             <div className={styles.welcomeText}>
-               {/* <h1 className={styles.welcomeTitle}>Add reading to a new Hobby</h1> */}
-               {/* <p className={styles.subTitle}>NabIn >   Browse >  Share</p> */}
+               <h1 className={styles.welcomeTitle}>Share & Pick Hot Books.</h1>
+               <p className={styles.subTitle}>welcome!</p>
+               <button className={styles.explore}>nabin now</button>
+              
         </div>
+        <div className={styles.nextBtn}>
+        <svg className={styles.arrowLeft} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+        <svg className={styles.arrowRight}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+        {/* <svg   className={styles.saveIcon} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2v17.582l-4-3.512-4 3.512v-17.582h8zm2-2h-12v24l6-5.269 6 5.269v-24z"/></svg> */}
+
+               {/* <svg clasName={styles.previous} width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/></svg> */}
+
+               {/* <svg   className={styles.saveIcon} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2v17.582l-4-3.512-4 3.512v-17.582h8zm2-2h-12v24l6-5.269 6 5.269v-24z"/></svg> */}
+
+               {/* <svg   clasName={styles.next} width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg> */}
+               </div>
+        <div className={styles.homeContainer}>
+            
         <div className={styles.topPickContainer}>
         <div className={styles.topPickContents}>
               <div className={styles.topPickText}>
