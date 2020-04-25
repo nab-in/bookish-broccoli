@@ -1,0 +1,63 @@
+.saveIcon,
+.previewIcon {
+    fill: #cc4a22ad;
+    width: 26px;
+    height: 50px;
+    position: relative;
+    align-self: center;
+    margin-top: -1.15rem;
+}
+
+.saveIcon {
+    height: 23px;
+}
+
+.saveOptions {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+
+.save,
+.preview {
+    cursor: pointer;
+    padding: .49rem .5rem;
+    height: 23.5px;
+    margin-right: .1rem;
+    border-radius: 5px;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.993);
+    border: 1.2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+/* .saveIcon:focus .saveTooltip {
+    visibility: visible;
+    background-color: red;
+} */
+.saveIcon:hover,
+.saveTooltip {
+    /* background-color: red; */
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.saveTooltip,
+.previewTooltip {
+    visibility: hidden;
+    /* margin-top: 3rem; */
+    margin-top: 3rem;
+    /* padding-right: 1remx; */
+    margin-left: -1rem;
+    background-color: black;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: .1rem;
+    font-size: .8rem;
+    font-family: sans-serif;
+    /* height: 12px; */
+}

@@ -1,0 +1,36 @@
+.uploadContainer {
+  padding: 0;
+  margin: 0 auto;
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3.3rem;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-weight: 100;
+  color: rgb(20, 24, 22);
+}
+
+.uploadButton {
+  border: 2px solid rgba(164, 223, 203, 0.979);
+  border-radius: 4px;
+  padding: 0.1rem 2.2rem;
+
+  font-size: 1rem;
+  border-color: transparent;
+  background-color: rgba(70, 124, 106, 0.979);
+  color: white;
+  font-weight: bold;
+  height: 45px;
+  /* margin-right: 3rem; */
+  margin-top: 0.5rem;
+}
+
+.uploadButton:hover {
+  border: 2px solid rgba(164, 223, 203, 0.979);
+  color: black;
+  background-color: transparent;
+}

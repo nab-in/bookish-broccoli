@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    top: 12rem;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* position: absolute; */
+    z-index: 2000;
+    /* overflow-x: scroll; */
+    justify-content: space-between;
+
+
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    /* animation: moveLeft; */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-duration: li; */
+    /* position: relative; */
+    /* left: ; */
+    width: 28rem;
+    /* border: 2px solid red; */
+    /* margin-left: -12rem; */
+    /* justify-content: space-around; */
+    /* width: ; */
+}
+
+.bookImage {
+    /* width: 100%; */
+    height: 290px;
+}
+
+.about {
+    width: 150px;
+    margin-left: 1.2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title,
+.author {
+    text-transform: capitalize;
+    width: 200px;
+}
+
+/* 
+@keyframes example {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+} */

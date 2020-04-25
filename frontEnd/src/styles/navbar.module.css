@@ -2,18 +2,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 2rem 3rem;
   padding: auto;
 }
 
 .logo {
-  font-size: 1.4rem;
-  color: rgb(65, 63, 63);
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(22, 15, 15);
+  /* font-family: "roboto-slab"; */
+
 }
 
 input {
+  background: transparent;
   border: none;
-  border-bottom: .2px solid rgb(90, 87, 87);
+  width: 200px;
+  border-bottom: 1.2px solid rgb(49, 47, 47);
 
 }
 

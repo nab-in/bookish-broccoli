@@ -1,0 +1,225 @@
+.home {
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    height: 80vh;
+    z-index: -2;
+    /* bottom: 0; */
+}
+
+.homeContainer {
+    font-family: "roboto-slab";
+    /* align-self: center; */
+    padding: 0;
+    /* padding-left: 3rem; */
+    margin: auto 0;
+    position: absolute;
+    /* margin-top: -2rem; */
+    top: 130px;
+    right: 0;
+    background-color: #943b20fb;
+    /* background-color: #c4684cd0; */
+    /* border: 2px solid red; */
+
+    /* border: 2px solid transparent; */
+    /* z-index: -1; */
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+
+
+    /* margin-top: -2.5rem; */
+
+}
+
+.welcomeText {
+    position: absolute;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 30vw;
+    top: 29%;
+    /* height: 100px; */
+    z-index: 2000000;
+    left: 10%;
+}
+
+.welcomeTitle {
+    font-weight: 900;
+    font-family: "roboto-slab";
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    color: rgba(20, 15, 15, 0.877);
+    text-transform: capitalize;
+    /* font-style: italic; */
+
+}
+
+.subTitle {
+    margin-top: -1rem;
+    font-family: sans-serif;
+    font-size: 4.12rem;
+    font-weight: bolder;
+    color: rgb(20, 16, 16);
+    /* font-style: italic; */
+    /* border: 2px solid white; */
+    margin-bottom: 1rem;
+}
+
+.explore {
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 34px;
+    padding: .65rem 1.5rem;
+    text-transform: uppercase;
+    /* margin-top: -15rem; */
+    /* margin-bottom: 3rem; */
+    font-weight: 700;
+}
+
+.nextBtn {
+    position: relative;
+
+    top: 520px;
+    left: 160px;
+    z-index: 900000000;
+    /* border: 2px soli red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6vw;
+}
+
+.arrowLeft,
+.arrowRight {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #fff;
+    color: brown;
+    width: 20px;
+    height: 15px;
+    fill: rgba(39, 36, 36, 0.856);
+    padding: .5rem .4rem;
+    text-align: center;
+}
+
+.arrowLeft {
+    transform: rotate(-180deg);
+}
+
+.topPickContainer {
+    /* margin: 3rem; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 16vw;
+    z-index: 3000;
+    background-color: rgba(244, 247, 246, 0.925);
+    margin: auto 0;
+    padding: 2rem 1.2rem;
+    color: black;
+    /* background-color: #fff; */
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 2px solid transparent;
+}
+
+.topPickContents {
+    /* border: 2px solid red; */
+    /* margin: 5rem 0rem; */
+    /* margin-left: 2rem; */
+    /* width: 800px; */
+    /* margin: 3rem 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topPickTitle {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: .05rem;
+}
+
+.author {
+    font-size: .79rem;
+    text-transform: none;
+    font-weight: 100;
+    /* margin-left: 1.5rem; */
+    color: #df7f62;
+}
+
+.summary {
+    padding-top: 3rem;
+    text-transform: none;
+    text-align: start !important;
+    font-size: .69rem;
+    /* width: 20%; */
+    font-weight: 100;
+    /* color: rgb(65, 63, 63); */
+}
+
+.topBookImg {
+    width: 200px;
+    align-self: center;
+    margin-left: 2rem;
+
+}
+
+.seeMore {
+    text-align: center;
+    font-weight: 100;
+    font-size: .83rem;
+    letter-spacing: .07rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.categories {
+    position: absolute;
+    bottom: 0;
+    padding-top: .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(244, 247, 246, 0.925);
+
+    /* background-color: rgb(244, 247, 246); */
+    width: 75vw;
+    border-top-right-radius: 20px;
+    /* border: 2px solid red; */
+
+    text-align: center;
+}
+
+.recomendsIcon,
+.popularIcon,
+.uploadIcon {
+    /* margin-top: 1rem; */
+    /* padding-top: 1rem; */
+    /* margin-bottom: -1rem; */
+    fill: #df7f62d8;
+    width: 20px;
+}
+
+h2 {
+    font-size: .9rem;
+    font-family: sans-serif;
+    letter-spacing: .04rem;
+    padding-top: .3rem;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+/* 
+.topBookImg::after {
+    content: "";
+    height: 100px;
+    width: 27px;
+    background-color: black;
+    top: 23rem;
+    position: absolute;
+} */
