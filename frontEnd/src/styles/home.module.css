@@ -6,10 +6,12 @@
     margin: auto 0;
     position: absolute;
     right: 0;
-    background-color: #df7f62;
+    background-color: #943b20fb;
+    /* background-color: #c4684cd0; */
+
     /* border: 2px solid transparent; */
     /* z-index: -1; */
-    border-radius: 15px;
+    border-radius: 20px;
     border-bottom-right-radius: 0px;
 
 
@@ -50,7 +52,7 @@
     padding: 2rem 1.2rem;
     color: black;
     /* background-color: #fff; */
-    border-radius: 13px;
+    border-radius: 20px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border: 2px solid transparent;
@@ -119,14 +121,14 @@
     justify-content: space-around;
     background-color: rgb(244, 247, 246);
     width: 75vw;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 20px;
     text-align: center;
 }
 
 .recomendsIcon,
 .popularIcon,
 .uploadIcon {
-    fill: #df7f62;
+    fill: #df7f62d8;
     width: 25px;
 }
 
@@ -135,6 +137,7 @@ h2 {
     font-family: sans-serif;
     letter-spacing: .04rem;
     padding-top: .4rem;
+    color: rgba(0, 0, 0, 0.692);
 }
 
 /* 

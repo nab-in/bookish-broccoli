@@ -13,14 +13,16 @@ body {
       rgba(4, 15, 13, 0.733) 70%,
       rgba(241, 247, 244, 0.87) 64%),
     url("../images/banner1.jpeg"); */
+  /* 
+ 
 
-  /* background-image: radial-gradient(circle,
-      rgba(31, 231, 195, 0.664) 40%,
-      rgba(30, 41, 35, 0.089) 64%),
-    url("../images/banner1.jpeg"); */
-  background-image: url("../images/banner1.jpeg");
+  /* background-image: url("../images/banner9.jpeg"); */
+  background-image: radial-gradient(circle,
+      rgba(233, 98, 64, 0.274) 20%,
+      rgba(233, 98, 64, 0.26) 4%),
+    url("../images/banner9.jpeg");
   height: 100vh;
-  background-position: 5px center;
+  background-position: 0px center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
