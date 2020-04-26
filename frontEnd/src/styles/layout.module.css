@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: rgba(169, 216, 193, 0.411);
+  /* background-color: rgba(169, 216, 193, 0.411); */
   /* background-image: url("../images/banner1.jpeg"); */
   /* background-image: radial-gradient(circle,
       rgba(4, 15, 13, 0.733) 70%,
@@ -17,14 +17,7 @@ body {
  
 
   /* background-image: url("../images/banner9.jpeg"); */
-  background-image: radial-gradient(circle,
-      rgba(219, 216, 215, 0.007) 100%,
-      rgba(143, 41, 15, 0.034) 80%),
-    url("../images/banner9.jpeg");
-  height: 100vh;
-  background-position: 0px center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,6 +30,14 @@ body {
 }
 
 .container {
+  background-image: radial-gradient(circle,
+      rgba(219, 216, 215, 0.007) 100%,
+      rgba(143, 41, 15, 0.034) 80%),
+    url("../images/banner9.jpeg");
+  height: 100vh;
+  background-position: 0px center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
   margin: 0;
   top: 0;

@@ -1,7 +1,8 @@
 import React from 'react'
 import recomends from '../styles/recommended.module.css'
+import Upload from '../components/Upload'
 // import books from '../styles/books.module.css'
-
+import Navbar from '../components/Navbar'
 import Books from '../components/Books'
 import book3 from '../images/11minutes.jpg'
 import book1 from '../images/here for it.jpg'
@@ -25,6 +26,10 @@ const bookData =[
 const Recommends = () => {
     
         return(
+            <div className={recomends.recomendPage}>
+            <Navbar/>
+
+            
             <div className={recomends.container}>
                  <h2 className={recomends.title}>Recommended For You</h2>
     
@@ -34,6 +39,9 @@ const Recommends = () => {
                      )}
                  </div>
                 
+            </div>
+            <Upload/>
+            
             </div>
         );
     }

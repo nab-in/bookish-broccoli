@@ -106,7 +106,7 @@
     height: 400px;
     width: 16vw;
     z-index: 3000;
-    background-color: rgba(244, 247, 246, 0.925);
+    background-color: rgba(244, 247, 246, 0.986);
     margin: auto 0;
     padding: 2rem 1.2rem;
     color: black;
@@ -179,6 +179,13 @@
 
 }
 
+.recommends,
+.popular,
+.upload {
+    list-style: none;
+    text-decoration: none;
+}
+
 .recomendsIcon,
 .popularIcon,
 .uploadIcon {
@@ -215,17 +222,7 @@ h2 {
     }
 }
 
-@keyframes slideRight {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
 
 
 @keyframes shadow {

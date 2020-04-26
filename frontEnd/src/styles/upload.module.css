@@ -16,12 +16,12 @@ h2 {
 
 .uploadButton {
   border: 2px solid rgba(164, 223, 203, 0.979);
-  border-radius: 4px;
+  border-radius: 24px;
   padding: 0.1rem 2.2rem;
-
+  cursor: pointer;
   font-size: 1rem;
   border-color: transparent;
-  background-color: rgba(70, 124, 106, 0.979);
+  background-color: #943b20e8;
   color: white;
   font-weight: bold;
   height: 45px;
@@ -30,7 +30,7 @@ h2 {
 }
 
 .uploadButton:hover {
-  border: 2px solid rgba(164, 223, 203, 0.979);
+  border: 2px solid #943b20fb;
   color: black;
   background-color: transparent;
 }
