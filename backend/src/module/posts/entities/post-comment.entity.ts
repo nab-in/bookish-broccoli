@@ -4,14 +4,14 @@ import {
   BaseEntity,
   PrimaryGeneratedColumn,
   BeforeInsert,
-  OneToMany,
+  ManyToOne,
   JoinColumn,
 } from 'typeorm';
 import { generateUid } from 'src/core/generate.uid';
-import { Comments } from './post-comment.entity';
+import { Posts } from './post.entity';
 
-@Entity('posts', { schema: 'public' })
-export class Posts extends BaseEntity {
+@Entity('comments', { schema: 'public' })
+export class Comments extends BaseEntity {
   @PrimaryGeneratedColumn({
     name: 'id',
   })
@@ -22,16 +22,18 @@ export class Posts extends BaseEntity {
 
   @Column('text', {
     nullable: false,
-    name: 'post',
+    name: 'comment',
   })
-  post: string;
+  comment: string;
 
-  @OneToMany(
-    type => Comments,
-    comments => comments.post,
+  @ManyToOne(
+    type => Posts,
+    posts => posts.comments,
+    {eager: true}
+
   )
-  @JoinColumn({name: 'postId'})
-  comments: Comments[];
+  @JoinColumn({name: 'id'})
+  post: Posts[];
 
   @BeforeInsert()
   BeforeInsert() {
