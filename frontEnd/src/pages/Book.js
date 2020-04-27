@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 const Book = ()=> {
     return(
         <div className={styles.bookPage}>
-           <Navbar/>
+        <Navbar text="Go back"/>
+
            {/* <h3>Book</h3> */}
         </div>
     )

@@ -5,7 +5,7 @@ import Home from "../components/Home"
 const Main = () => {
   return (
     <Layout>
-      <Navbar />
+      <Navbar text="NabIn" />
       <Home/>
     </Layout>
   )

@@ -19,9 +19,7 @@
     animation-timing-function: linear;
     animation-delay: .3s;
     opacity: 0;
-
     animation-iteration-count: 1;
-
 }
 
 .welcomeText {
@@ -41,7 +39,6 @@
     font-size: .9rem;
     color: rgba(20, 15, 15, 0.877);
     text-transform: capitalize;
-
 }
 
 .subTitle {
@@ -51,7 +48,6 @@
     font-weight: bolder;
     color: rgb(20, 16, 16);
     margin-bottom: 1rem;
-
 }
 
 .explore {
@@ -61,7 +57,6 @@
     padding: .65rem 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-
 }
 
 .explore:hover {
@@ -72,7 +67,6 @@
 
 .nextBtn {
     position: relative;
-
     top: 520px;
     left: 160px;
     z-index: 900000000;
@@ -82,8 +76,7 @@
     width: 6vw;
 }
 
-.arrowLeft,
-.arrowRight {
+.arrowLeft, .arrowRight {
     cursor: pointer;
     border: 2px solid transparent;
     border-radius: 50%;
@@ -114,7 +107,6 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border: 2px solid transparent;
-
 }
 
 .topPickContents {
@@ -151,7 +143,6 @@
     width: 200px;
     align-self: center;
     margin-left: 2rem;
-
 }
 
 .seeMore {
@@ -170,25 +161,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgba(244, 247, 246, 0.993);
-
+    background-color: white;
     width: 75vw;
     border-top-right-radius: 20px;
     cursor: pointer;
     text-align: center;
-
 }
 
-.recommends,
-.popular,
-.upload {
+.recommends, .popular, .upload {
     list-style: none;
     text-decoration: none;
 }
 
-.recomendsIcon,
-.popularIcon,
-.uploadIcon {
+.recomendsIcon, .popularIcon, .uploadIcon {
     cursor: pointer;
     fill: #df7f62d8;
     width: 20px;
@@ -202,28 +187,20 @@ h2 {
     color: rgba(0, 0, 0, 0.815);
 }
 
-
-
 /* animations */
-@keyframes slideLeft {
 
+@keyframes slideLeft {
     0% {
         opacity: 0;
         transform: translateX(100px);
         width: 0px;
     }
-
-
-
     100% {
         opacity: 1;
         transform: translate(0);
         width: inherit;
     }
 }
-
-
-
 
 @keyframes shadow {
     0% {
@@ -232,7 +209,6 @@ h2 {
         -webkit-transform: translateX(0) translateY(0);
         transform: translateX(0) translateY(0);
     }
-
     100% {
         -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
         box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;

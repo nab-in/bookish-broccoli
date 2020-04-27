@@ -3,11 +3,13 @@ import navStyles from "../styles/navbar.module.css"
 import Search from "../Icons/Search"
 import { Link } from "gatsby"
 
-const Navbar = () => {
+const Navbar = props => {
 
   return (
     <div className={navStyles.container}>
-     <Link className={navStyles.logo}>NabIn.</Link>
+     <Link className={navStyles.logo}>
+       {props.text}
+     </Link>
      <div className={navStyles.search}>
      <Search/>
         <input  type="text"/>

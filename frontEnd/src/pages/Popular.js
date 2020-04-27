@@ -27,7 +27,7 @@ const Popular = () => {
     
         return(
             <div className={recomends.recomendPage}>
-            <Navbar/>
+            <Navbar text="Go back"/>
 
             
             <div className={recomends.container}>
