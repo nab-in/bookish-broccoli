@@ -1,6 +1,6 @@
 ## NABIN  a site for readers from readers
 
-# Some of the Functionalities
+# Proposed Functionalities
 
 * Categorisation of books according to genre
    > A user should be able to view book reviews according to categories and review categories
