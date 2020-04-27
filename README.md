@@ -1,4 +1,4 @@
-## NABIN  a site for readers from readers
+## NABIN haven for readers from readers
 
 # Proposed Functionalities
 
