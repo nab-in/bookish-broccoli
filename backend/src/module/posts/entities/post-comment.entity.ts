@@ -29,10 +29,9 @@ export class Comments extends BaseEntity {
   @ManyToOne(
     type => Posts,
     posts => posts.comments,
-    {eager: true}
 
   )
-  @JoinColumn({name: 'id'})
+  // @JoinColumn({name: 'id'})
   post: Posts[];
 
   @BeforeInsert()

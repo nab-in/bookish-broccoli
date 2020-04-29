@@ -26,11 +26,30 @@ export class Posts extends BaseEntity {
   })
   post: string;
 
+  @Column('text', {
+    nullable: false,
+    name: 'post',
+  })
+  title: string;
+
+  @Column('text', {
+    nullable: false,
+    name: 'post',
+  })
+  author: string;
+
+  @Column('text', {
+    nullable: false,
+    name: 'post',
+  })
+  genre: string;
+
   @OneToMany(
     type => Comments,
     comments => comments.post,
+    {eager: true}
   )
-  @JoinColumn({name: 'postId'})
+  // @JoinColumn({ name: 'postId' })
   comments: Comments[];
 
   @BeforeInsert()
