@@ -14,7 +14,7 @@ import { GraphQLModule } from '@nestjs/graphql';
       ignoreEnvFile: true,
     }),
     PostModule,
-   GraphQLModule.forRoot({}),
+   GraphQLModule.forRoot({autoSchemaFile: 'schema.gpl'}),
 
   ],
   controllers: [],
