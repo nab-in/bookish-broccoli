@@ -1,4 +1,7 @@
 ## NabIn API endpoints that will expose nabin functionalities
+```bash
+The Endpoints will implement GraphQL
+```
 ## Installation
 
 ```bash
