@@ -1,7 +1,18 @@
- 
 language: node_js
-
 node_js:
-  - 'node'
-  - '10'
-  - '8'
+  - "stable"
+
+branches:
+  only:
+    - master
+    - develop
+
+scripts : 
+  - npm run test
+
+notifications:
+  email:
+    recipients:
+    - bennybenester@gmail.com
+    on_success: change
+    on_failure: always
