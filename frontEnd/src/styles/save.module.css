@@ -1,5 +1,4 @@
-.saveIcon,
-.previewIcon {
+.saveIcon, .previewIcon {
     fill: #cc4a22ad;
     width: 26px;
     height: 50px;
@@ -18,15 +17,13 @@
     margin-left: 5rem;
 }
 
-.save,
-.preview {
+.save, .preview {
     cursor: pointer;
     padding: .49rem .5rem;
     height: 23.5px;
     margin-right: .1rem;
     border-radius: 5px;
     border-radius: 50%;
-
     background-color: rgba(255, 255, 255, 0.993);
     border: 1.2px solid transparent;
     display: flex;
@@ -38,22 +35,21 @@
     visibility: visible;
     background-color: red;
 } */
-.saveIcon:hover,
-.saveTooltip {
+
+.saveIcon:hover, .saveTooltip {
     /* background-color: red; */
     visibility: visible;
     opacity: 1;
 }
 
-
-.saveTooltip,
-.previewTooltip {
-    visibility: hidden;
+.saveTooltip, .previewTooltip {
+    /* visibility: hidden; */
     /* margin-top: 3rem; */
     margin-top: 3rem;
     /* padding-right: 1remx; */
     margin-left: -1rem;
     background-color: black;
+    color: white;
     border: 2px solid transparent;
     border-radius: 3px;
     padding: .1rem;

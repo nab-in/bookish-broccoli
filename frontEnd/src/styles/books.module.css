@@ -8,11 +8,20 @@
     z-index: 2000;
     /* overflow-x: scroll; */
     justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 
 
 }
 
+.summary {
+    display: none;
+}
+
 .contents {
+    cursor: pointer;
+
     display: flex;
     flex-direction: row;
     /* animation: moveLeft; */

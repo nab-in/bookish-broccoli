@@ -1,11 +1,15 @@
 import React from "react"
 import navStyles from "../styles/navbar.module.css"
 import Search from "../Icons/Search"
-const Navbar = () => {
+import { Link } from "gatsby"
+
+const Navbar = props => {
 
   return (
     <div className={navStyles.container}>
-     <h2 className={navStyles.logo}>NabIn.</h2>
+     <Link className={navStyles.logo}>
+       {props.text}
+     </Link>
      <div className={navStyles.search}>
      <Search/>
         <input  type="text"/>
