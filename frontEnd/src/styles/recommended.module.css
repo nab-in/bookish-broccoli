@@ -31,6 +31,10 @@
     padding-top: 1rem;
 }
 
+.summary {
+    display: none;
+}
+
 .bookContents {
     /* border: 2px solid rgb(0, 255, 0); */
     height: 100vh;

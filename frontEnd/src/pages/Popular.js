@@ -10,14 +10,13 @@ import book2 from '../images/the resisters.jpg'
 import book4 from '../images/poweNotebook.jpg'
 import book5 from '../images/glass.jpg'
 
-
 const bookData =[
-    {bookUrl:[book1], bookName:'here for it', bookSummary:'by rafyramy'},
-    {bookUrl:[book2], bookName:'the resisters', bookSummary:'by paul'},
-    {bookUrl:[book4], bookName:'power notebook', bookSummary:'by paul'},
+    {summary:"summary for here for it"   ,bookImage:[book1], bookTitle:'here for it', bookAuthor:'by rafyramy'},
+    {summary:"summary for here for it" , bookImage:[book2], bookTitle:'the resisters', bookAuthor:'by paul'},
+    {summary:"summary for here for it" , bookImage:[book4], bookTitle:'power notebook', bookAuthor:'by paul'},
 
-    {bookUrl:[book3], bookName:'fiveAmClub', bookSummary:'by rafyramy'},
-    {bookUrl:[book5], bookName:'the glass hotel', bookSummary:'by rafyramy'},
+    {summary:"summary for here for it" , bookImage:[book3], bookTitle:'fiveAmClub', bookAuthor:'by rafyramy'},
+    {summary:"summary for here for it" ,bookImage:[book5], bookTitle:'the glass hotel', bookAuthor:'by rafyramy'},
 
    
           

@@ -11,8 +11,12 @@
     cursor: pointer;
     text-decoration: none;
     color: black;
-    
 
+
+}
+
+.summary {
+    display: none;
 }
 
 .contents {

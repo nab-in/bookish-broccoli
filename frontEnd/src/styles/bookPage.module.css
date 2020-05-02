@@ -1,8 +1,8 @@
 .bookPage {
-    background-image: radial-gradient(circle,
+    /* background-image: radial-gradient(circle,
             rgba(219, 216, 215, 0.007) 100%,
             rgba(143, 41, 15, 0.034) 80%),
-        url("../images/bgimage.jpg");
+        url("../images/bgimage.jpg"); */
     height: 100vh;
     background-position: 0px center;
     background-repeat: no-repeat;
