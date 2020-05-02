@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+  padding: auto;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(22, 15, 15);
+  /* font-family: "roboto-slab"; */
+  text-decoration: none;
+
+}
+
+input {
+  background: transparent;
+  border: none;
+  width: 200px;
+  border-bottom: 1.2px solid rgb(49, 47, 47);
+
+}
+
+input:active {
+  outline: none;
+  border: none;
+  border-bottom: .2px solid rgb(90, 87, 87);
+
+}
+
+input:focus {
+  outline: none;
+  /* border: 2px solid red; */
+  border: none;
+  border-bottom: .2px solid rgb(90, 87, 87);
+
+}
+
+.search {
+  display: block;
+}

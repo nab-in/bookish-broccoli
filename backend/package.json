@@ -18,12 +18,17 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+    "migration:generate": "typeorm migration:generate -n",
+    "migration:create": "typeorm migration:create -n",
+    "migration:run": "typeorm migration:run"
   },
   "dependencies": {
     "@nestjs/common": "^6.11.11",
     "@nestjs/config": "^0.4.0",
     "@nestjs/core": "^6.11.11",
+    "@nestjs/graphql": "^7.3.4",
     "@nestjs/jwt": "^7.0.0",
     "@nestjs/passport": "^7.0.0",
     "@nestjs/platform-express": "^6.11.11",
@@ -33,6 +38,8 @@
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.1",
     "eslint-plugin-nestjs": "^1.2.3",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0",
     "helmet": "^3.22.0",
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
@@ -47,7 +54,6 @@
   },
   "devDependencies": {
     "@compodoc/compodoc": "^1.1.11",
-    "compression": "^1.7.4",
     "@nestjs/cli": "^6.14.2",
     "@nestjs/schematics": "^6.9.4",
     "@nestjs/testing": "^6.11.11",
@@ -57,6 +63,7 @@
     "@types/supertest": "^2.0.8",
     "@typescript-eslint/eslint-plugin": "2.22.0",
     "@typescript-eslint/parser": "2.22.0",
+    "compression": "^1.7.4",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",

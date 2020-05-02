@@ -1,6 +1,6 @@
-## NABIN  a site for readers from readers
+## NABIN haven for readers from readers
 
-# Some of the Functionalities
+# Proposed Functionalities
 
 * Categorisation of books according to genre
    > A user should be able to view book reviews according to categories and review categories
@@ -15,4 +15,8 @@
 * The reader’s account should be able to keep track of all the books they have read have read and reviewed
 * Author bios (some of people read books depending on who wrote it)
 * Ability for the reader to recommend books to other community members.
+
+# Hall of Fame
+[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/0)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/0)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/1)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/1)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/2)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/2)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/3)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/3)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/4)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/4)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/5)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/5)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/6)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/6)[![](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/images/7)](https://sourcerer.io/fame/BaharaJr/nab-in/bookish-broccoli/links/7)
+
 
