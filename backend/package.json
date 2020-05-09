@@ -1,8 +1,8 @@
 {
   "name": "nabin-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "NABIN API that will expose NABIN endpoints for crud operations",
+  "author": "Bennett Benedict",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
