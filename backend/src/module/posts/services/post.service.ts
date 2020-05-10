@@ -37,9 +37,13 @@ export class PostService {
       posts.post = post;
       await posts.save();
       return posts;
-   }
-   else {
-       throw new NotFoundException(`Post Not Defined`)
-   }
+    } else {
+      throw new NotFoundException(`Post Not Defined`);
+    }
+  }
+  async deletePost(id: number) {
+    await this.postRepository.delete({ id });
+    return { delete: true };
   }
 }
+ 
