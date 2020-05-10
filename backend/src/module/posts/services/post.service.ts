@@ -1,16 +1,16 @@
-import { Post } from '../entities/post.entity';
+import { Posts } from '../entities/post.entity';
 import { EntityRepository, Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { NotFoundException } from '@nestjs/common';
 
-@EntityRepository(Post)
+@EntityRepository(Posts)
 export class PostService {
   constructor(
-    @InjectRepository(Post)
-    private postRepository: Repository<Post>,
+    @InjectRepository(Posts)
+    private postRepository: Repository<Posts>,
   ) {}
   async createPost(createPostDTO: any) {
-    const post = new Post();
+    const post = new Posts();
     Object.keys(createPostDTO).forEach(key => {
       post[key] = createPostDTO[key];
     });
@@ -22,7 +22,7 @@ export class PostService {
     const posts = await query.getMany();
     return posts;
   }
-  async getPostById(id: number): Promise<Post> {
+  async getPostById(id: number): Promise<Posts> {
     const post = await this.postRepository.findOne(id);
     if (!post) {
       throw new NotFoundException(`Post with ID ${id} not found`);
