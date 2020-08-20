@@ -34,7 +34,7 @@
     "@nestjs/platform-express": "^6.11.11",
     "@nestjs/swagger": "^4.5.1",
     "@nestjs/typeorm": "^6.3.4",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "class-transformer": "^0.3.1",
     "class-validator": "^0.11.1",
     "eslint-plugin-nestjs": "^1.2.3",
